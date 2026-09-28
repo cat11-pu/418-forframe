@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "cap": 3,
+  "bad_value_code": "E_BAD_VALUE",
+  "bad_block_code": "E_BAD_BLOCK",
+  "no_block_code": "E_NO_BLOCK",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "blocks": [], "asks": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "put", "value": 5 },
+    { "id": 2, "kind": "put", "value": 7 },
+    { "id": 3, "kind": "put", "value": 6 },
+    { "id": 4, "kind": "put", "value": 9 },
+    { "id": 5, "kind": "ask", "block": 1 },
+    { "id": 6, "kind": "put", "value": 9 },
+    { "id": 7, "kind": "ask", "block": 2 }
+  ]
+}
